@@ -3,6 +3,9 @@ package com.baker.learning.javabasics.encryption;
 import org.apache.commons.codec.digest.DigestUtils;
 
 /**
+ *
+ * 摘要算法
+ *
  * SHA-1与MD5的比较
  * 因为二者均由MD4导出，SHA-1和MD5彼此很相似。相应的，他们的强度和其他特性也是相似，但还有以下几点不同：
  * <p>

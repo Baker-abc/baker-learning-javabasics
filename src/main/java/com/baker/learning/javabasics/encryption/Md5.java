@@ -3,7 +3,7 @@ package com.baker.learning.javabasics.encryption;
 import org.apache.commons.codec.digest.DigestUtils;
 
 /**
- *
+ * 摘要算法
  */
 public class Md5 {
 

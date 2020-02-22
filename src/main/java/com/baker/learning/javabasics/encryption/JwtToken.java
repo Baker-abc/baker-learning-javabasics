@@ -16,6 +16,9 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 加密算法
+ */
 public class JwtToken {
     private static final SignatureAlgorithm SA = SignatureAlgorithm.HS256;//使用hs256算法
     private static final String KEY_SECRET = "baker";

@@ -3,21 +3,20 @@ package com.baker.learning.javabasics.basic;
 /**
  * @Description equals  vs  ==
  * equals 比较内存里面的具体数据是否相等。
- *
+ * <p>
  * ==：比较地址是否相等
  * 1、字符串：考虑常量池
- *
+ * <p>
  * 2、基础类型的包装类：考虑缓存，针对常用的值，避免每次创建都new
- *    byte Byte      -128–127
- *    short Short    -128–127
- *    int Integer    -128—127
- *    long Long      -128—127
- *    float Float    不缓存
- *    double Double  不缓存
- *    char Character 0–127
- *
+ * byte Byte      -128–127
+ * short Short    -128–127
+ * int Integer    -128—127
+ * long Long      -128—127
+ * float Float    不缓存
+ * double Double  不缓存
+ * char Character 0–127
+ * <p>
  * 3、引用类型：仅仅比较地址
- *
  * @Author
  * @Date 2020/3/2 15:04
  **/
@@ -60,6 +59,17 @@ public class EqualsAndSame {
         String s10 = s8 + s9;
         //类似于s3与s5，因为是final类型编译器进行了优化所以相同。
         System.out.println("s3==s10? " + (s3 == s10));
+
+        System.out.println("===========================================");
+
+        Integer n = 1;
+        Integer m = 1;
+        Integer nn = 1000;
+        Integer mm = 1000;
+        // true -128~127缓存机制
+        System.out.println("n==m?" + (n == m));
+        // false 没有缓存机制
+        System.out.println("nn==mm?" + (nn == mm));
 
     }
 }

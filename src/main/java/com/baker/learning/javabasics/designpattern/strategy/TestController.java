@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @Description 策略模式 + 工厂模式 + spring-init初始化工厂
+ * @Description 策略模式 + 工厂模式 + spring-init初始化工厂（也可换成 Autowired-map来实现工厂初始化）
  * 实现去除 if-else
  * @Author
  * @Date 2020/3/6 22:54

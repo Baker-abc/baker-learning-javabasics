@@ -1,9 +1,7 @@
-package com.baker.learning.javabasics.designpattern.proxy.dynamic;
-
-import sun.swing.BakedArrayList;
+package com.baker.learning.javabasics.designpattern.structural.proxy.dynamic;
 
 /**
- * @Description
+ * @Description 动态代理
  * @date 2020/6/30 12:38 下午
  * @see
  */

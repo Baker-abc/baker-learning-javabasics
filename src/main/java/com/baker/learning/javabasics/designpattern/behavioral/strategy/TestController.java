@@ -1,4 +1,4 @@
-package com.baker.learning.javabasics.designpattern.strategy;
+package com.baker.learning.javabasics.designpattern.behavioral.strategy;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

@@ -1,4 +1,4 @@
-package com.baker.learning.javabasics.designpattern.proxy.dynamic;
+package com.baker.learning.javabasics.designpattern.structural.proxy.dynamic;
 
 /**
  * @author

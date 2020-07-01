@@ -1,4 +1,4 @@
-package com.baker.learning.javabasics.designpattern.filter;
+package com.baker.learning.javabasics.designpattern.behavioral.filter;
 
 import org.springframework.stereotype.Component;
 

@@ -1,4 +1,4 @@
-package com.baker.learning.javabasics.designpattern.strategy;
+package com.baker.learning.javabasics.designpattern.behavioral.strategy;
 
 import org.springframework.util.Assert;
 

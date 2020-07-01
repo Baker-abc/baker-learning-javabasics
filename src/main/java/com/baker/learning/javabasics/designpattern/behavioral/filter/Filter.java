@@ -1,7 +1,7 @@
-package com.baker.learning.javabasics.designpattern.filter;
+package com.baker.learning.javabasics.designpattern.behavioral.filter;
 
 /**
- * @description
+ * @description 过滤器模式
  * @date 2020/4/11 13:10
  */
 

@@ -1,6 +1,6 @@
 package com.baker.learning.javabasics.designpatten.filter;
 
-import com.baker.learning.javabasics.designpattern.filter.FilterManager;
+import com.baker.learning.javabasics.designpattern.behavioral.filter.FilterManager;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
